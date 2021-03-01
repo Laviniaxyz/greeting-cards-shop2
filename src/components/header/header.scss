@@ -1,0 +1,86 @@
+.shopping-bag {
+  width: 40px;
+  height: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 10%;
+
+    .hamburger-menu {
+      position: relative;
+
+      i {
+        color: #808080;
+        margin-right: 20px;
+      }
+
+      .mobile-navigation {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-left: 0;
+        margin-top: 5px;
+        width: 20vw;
+
+        div {
+          border-bottom: 1px solid #808080;
+
+          a {
+            text-decoration: none;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    div {
+      margin-right: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+
+    .bag-nav {
+      margin-right: 0;
+      position: relative;
+
+      .item-number {
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop-nav {
+    display: none;
+  }
+
+  .contact-nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .hamburger-menu {
+    display: none;
+  }
+}

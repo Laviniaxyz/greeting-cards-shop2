@@ -1,0 +1,11 @@
+.App {
+  margin: 15px;
+  padding: 15px 30px;
+  font-size: 14;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    margin: 0;
+  }
+}

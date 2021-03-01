@@ -1,0 +1,141 @@
+.sign-up-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 0 30px;
+    text-align: center;
+
+    a {
+      color: blue;
+      text-decoration: none;
+    }
+  }
+
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    //align-items: center;
+    margin: 30px 10px;
+    padding: 30px;
+    border: 1px solid #d3d3d3;
+
+    h3 {
+      font-size: 22px;
+      margin: 10px 0px;
+    }
+
+    .user-box {
+      position: relative;
+      margin: 30px 0;
+
+      .MuiFormControl-root {
+        max-width: 400px;
+        width: 100%;
+      }
+
+      input {
+        font-size: 14px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #696969;
+      }
+
+      input:focus ~ label {
+        top: -25px;
+        left: 0;
+        font-size: 12px;
+        padding-bottom: 20px;
+      }
+
+      label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px 0;
+        font-size: 14px;
+      }
+
+      div {
+        font-size: 12px;
+        padding-top: 10px;
+        color: red;
+      }
+    }
+
+    .button {
+      margin: 0 30%;
+      width: 40%;
+    }
+    .MuiButtonBase-root {
+      background-color: black;
+    }
+
+    .MuiInputBase-input {
+      color: black;
+    }
+
+    .MuiButtonBase-root:hover {
+      background-color: black;
+      opacity: 0.8;
+    }
+  }
+}
+
+/*
+.login-box {
+  width: 80%;
+  margin: 10px;
+  padding: 20px;
+
+  .user-box {
+    position: relative;
+    padding: 30px 0;
+
+    input {
+      border: none;
+      outline: none;
+      border-bottom: 1px solid black;
+      width: 80%;
+      padding: 10px 0;
+    }
+
+    input:focus ~ label,
+    input:valid ~ label {
+      top: -10px;
+      left: 0;
+      font-size: 12px;
+    }
+
+    label {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      padding: 10px 0;
+      font-size: 16px;
+    }
+  }
+
+  a {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px 40px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+}
+*/
