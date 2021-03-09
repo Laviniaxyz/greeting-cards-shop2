@@ -14,6 +14,17 @@
     cursor: pointer;
     width: 10%;
 
+    .logoAndName {
+      display: flex;
+      align-items: center;
+
+      div {
+        color: #fe7f6c;
+        font-weight: bolder;
+        margin-left: 5px;
+      }
+    }
+
     .hamburger-menu {
       position: relative;
 

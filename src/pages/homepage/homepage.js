@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homepage = () => {
   return(
-    <div>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
       Homepage
     </div>
   )
